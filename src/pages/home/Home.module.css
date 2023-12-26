@@ -1,0 +1,9 @@
+.home {
+  background-image: url(../../../image/dawnload1.png);
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: fit-content;
+  width: fit-content;
+}

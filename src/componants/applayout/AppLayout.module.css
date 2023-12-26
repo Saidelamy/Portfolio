@@ -1,0 +1,10 @@
+.applayout {
+  grid-template-columns: 7rem 1fr;
+  grid-template-rows: auto 1fr;
+}
+@media screen and (max-width: 640px) {
+  .applayout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+}
