@@ -60,7 +60,7 @@ function LandingPage() {
               </motion.p>
               <Link
                 to="/about"
-                className="flex w-[25%] items-center rounded-br-[1rem] bg-[#000000] px-5 py-3 text-2xl text-[#dedede]  duration-300 hover:bg-[#171717] max-sm:w-[11.1rem]"
+                className="flex w-[25%] items-center rounded-br-[1rem] bg-[#000000] px-5 py-3 text-2xl text-[#dedede]  duration-300 hover:bg-[#171717] max-sm:w-[11.5rem]"
               >
                 About me
                 <span className="pl-3">
