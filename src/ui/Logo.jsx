@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../image/logo12.png';
+import logo from '../../image/logo12.png';
 function Logo() {
   return (
     <div className="z-50 flex items-start justify-center ">
