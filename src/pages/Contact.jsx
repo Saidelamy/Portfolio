@@ -10,7 +10,7 @@ import ContactIcon from '../ui/ContactIcon';
 function Contact() {
   const downloadPDF = () => {
     const link = document.createElement('a');
-    link.href = 'saidcv.pdf';
+    link.href = '../../image/saidcv.pdf';
     link.download = 'saidcv';
     link.click();
   };
