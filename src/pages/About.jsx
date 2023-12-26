@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { GoPaperAirplane } from 'react-icons/go';
 import { IoLogoGithub } from 'react-icons/io';
 import { IoLogoJavascript } from 'react-icons/io5';
@@ -16,7 +17,8 @@ import {
 } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import Paragraph from './../ui/Paragraph';
-import { Link } from 'react-router-dom';
+//
+import said from '../../image/said.png';
 function About() {
   return (
     <>
@@ -108,7 +110,7 @@ function About() {
                 transition={{
                   duration: 2,
                 }}
-                src="../../image/said.png"
+                src={said}
                 alt=""
               />
             </div>

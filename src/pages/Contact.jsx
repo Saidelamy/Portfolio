@@ -6,14 +6,16 @@ import {
 } from 'react-icons/md';
 import Button from '../ui/Botton';
 import ContactIcon from '../ui/ContactIcon';
+import pdf from '../../image/saidcv.pdf';
 
 function Contact() {
   const downloadPDF = () => {
     const link = document.createElement('a');
-    link.href = '../../image/saidcv.pdf';
+    link.href = pdf;
     link.download = 'saidcv';
     link.click();
   };
+
   return (
     <motion.div
       initial={{ x: '-100vw', opacity: 0 }}
