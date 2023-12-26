@@ -14,7 +14,7 @@ function Projects3() {
         <div className="grid gap-0 ">
           <div className="overflow-hidden border-b-4 py-10 shadow-2xl">
             <SliderImageLeftToRight>
-              <Image src="../../image/project4/fun1.png" alt="" />
+              <Image src="../image/project4/fun1.png" alt="" />
               <Image src="../../image/project4/fun2.png" alt="" />
               <Image src="../../image/project4/fun3.png" alt="" />
               <Image src="../../image/project4/fun4.png" alt="" />
