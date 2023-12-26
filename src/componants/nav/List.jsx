@@ -6,7 +6,7 @@ function List() {
   return (
     <>
       <li className="py-3">
-        <NavLink to="home" className={classNameFunc}>
+        <NavLink to="/" className={classNameFunc}>
           Home
         </NavLink>
       </li>
