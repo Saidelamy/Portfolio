@@ -83,7 +83,7 @@ function About() {
             </span>
           </motion.div>
         </div>
-        <div className="grid grid-cols-2 gap-28 px-56 max-sm:grid-cols-1 max-sm:px-12">
+        <div className="grid grid-cols-2 gap-28 px-56 max-sm:grid-cols-1 max-sm:gap-0 max-sm:px-12">
           <div className=" flex flex-col items-center justify-center">
             <div>
               <h2 className="py-6 text-5xl">Hi there</h2>

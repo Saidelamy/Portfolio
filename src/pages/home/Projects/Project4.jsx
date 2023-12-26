@@ -16,7 +16,7 @@ function Projects3() {
     <>
       <div className="h-screen text-[#000000] ">
         <NumProject>4</NumProject>
-        <Heading>fun moment</Heading>{' '}
+        <Heading>fun moment</Heading>
         <div className="grid gap-0 ">
           <div className="overflow-hidden border-b-4 py-10 shadow-2xl">
             <SliderImageLeftToRight>
