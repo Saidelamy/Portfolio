@@ -3,7 +3,7 @@ import Heading from '../../../ui/Heading';
 import NumProject from '../../../ui/NumProject';
 import Paragraph from '../../../ui/Paragraph';
 import SliderImageLeftToRight from '../../../ui/SliderImageLeftToRight';
-import Image from '../../../ui/image';
+import Image from '../../../ui/Image';
 
 function Project2() {
   return (

@@ -1,7 +1,7 @@
 import NumProject from '../../../ui/NumProject';
 import Button from '../../../ui/Botton';
 import SliderImageLeftToRight from '../../../ui/SliderImageLeftToRight';
-import Image from '../../../ui/image';
+import Image from '../../../ui/Image';
 import Heading from '../../../ui/Heading';
 import Paragraph from '../../../ui/Paragraph';
 
