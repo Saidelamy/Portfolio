@@ -36,7 +36,9 @@ function Contact() {
               <span className="text-4xl uppercase max-sm:text-2xl">
                 say hello
               </span>
-              <Button onClick={downloadPDF}>Download cv</Button>
+              <Button onClick={downloadPDF} className="max-sm:p">
+                Download cv
+              </Button>
             </div>
           </div>
 
