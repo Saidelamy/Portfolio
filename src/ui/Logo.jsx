@@ -3,7 +3,7 @@ import logo from '../../image/logo12.png';
 function Logo() {
   return (
     <div className="z-50 flex items-start justify-center ">
-      <Link to="/home">
+      <Link to="home">
         <img className="size-[4rem]" src={logo} alt="" />
       </Link>
     </div>

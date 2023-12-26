@@ -101,7 +101,7 @@ function About() {
                   <GoPaperAirplane />
                 </span>
                 <Link
-                  to="/contact"
+                  to="contact"
                   className="border-b-2 border-black duration-300  hover:border-0 "
                 >
                   send me a message

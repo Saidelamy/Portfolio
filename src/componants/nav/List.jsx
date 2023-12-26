@@ -6,17 +6,17 @@ function List() {
   return (
     <>
       <li className="py-3">
-        <NavLink to="/home" className={classNameFunc}>
+        <NavLink to="home" className={classNameFunc}>
           Home
         </NavLink>
       </li>
       <li className="py-3">
-        <NavLink to="/about" className={classNameFunc}>
+        <NavLink to="about" className={classNameFunc}>
           About
         </NavLink>
       </li>
       <li className="py-3">
-        <NavLink to="/contact" className={classNameFunc}>
+        <NavLink to="contact" className={classNameFunc}>
           Contact
         </NavLink>
       </li>
