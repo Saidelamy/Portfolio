@@ -25,7 +25,9 @@ function Project1() {
               Wepsite for hotel reseption, allow the reseptionist to book use
               guest, make booking, check in guests, check out guests and more...
             </Paragraph>
-            <Button href="https://hamishw.com/contact/">View project</Button>
+            <Button href="https://thewild-oasis-virid.vercel.app/">
+              View project
+            </Button>
           </div>
         </div>
       </div>

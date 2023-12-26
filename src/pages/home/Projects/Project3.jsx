@@ -25,7 +25,9 @@ function Project3() {
               Wepsite for Pizza menu users can select pizzas and make order and
               more...
             </Paragraph>
-            <Button>View project</Button>
+            <Button href="https://fast-pizza-eight.vercel.app/">
+              View project
+            </Button>
           </div>
         </div>
       </div>

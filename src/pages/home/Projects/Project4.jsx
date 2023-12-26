@@ -26,7 +26,7 @@ function Projects3() {
               Wepsite to can users can show movies, stars and tv shows and see
               the details about every tobic and more...
             </Paragraph>
-            <Button>View project</Button>
+            <Button href="https://day3wa2tk.vercel.app/">View project</Button>
           </div>
         </div>
       </div>

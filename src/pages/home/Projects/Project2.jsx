@@ -25,7 +25,9 @@ function Project2() {
               Wepsite for map, users can select any city they visited and
               more...
             </Paragraph>
-            <Button>View project</Button>
+            <Button href="https://worldwise-lime.vercel.app/">
+              View project
+            </Button>
           </div>
         </div>
       </div>
