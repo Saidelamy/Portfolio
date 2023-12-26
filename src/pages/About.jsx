@@ -17,11 +17,16 @@ import {
 } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import Paragraph from './../ui/Paragraph';
+import { Helmet } from 'react-helmet';
 //
 import said from '../../image/said.png';
 function About() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Said Magdy | About</title>
+      </Helmet>
       <motion.section
         initial={{ x: '-100vw', opacity: 0 }}
         animate={{ x: 0, opacity: [0.5, 1] }}

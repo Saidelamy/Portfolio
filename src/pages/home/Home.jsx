@@ -5,10 +5,15 @@ import Project2 from './Projects/Project2';
 import Project3 from './Projects/Project3';
 import Project4 from './Projects/Project4';
 import LandingPage from './LandingPage';
+import { Helmet } from 'react-helmet';
 
 function Home() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Said Magdy</title>
+      </Helmet>
       <motion.section
         initial={{ x: '-100vw', opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
