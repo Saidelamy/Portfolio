@@ -90,9 +90,11 @@ function About() {
               <Paragraph>
                 I’m Said Magdy, currently I live in Menofia,egypt searching for
                 a intership or position as a Frontend developer. i’m working
-                with react.js and other library related with it, i’m open to
-                learning new technologies and ready to work on new projects and
-                work with a team.
+                with react.js and other library related with it like Redux
+                toolkit and React Query and use many of diffrent tools to style
+                like Tailwind css and more...
+                <br /> i’m open to learning new technologies and ready to work
+                on new projects and work with a team.
               </Paragraph>
               <button className="flex items-center p-2  uppercase text-black duration-200 hover:bg-black hover:bg-opacity-20">
                 <span className="pr-2 ">
@@ -116,7 +118,7 @@ function About() {
                   duration: 2,
                 }}
                 src={said}
-                alt=""
+                alt="said"
               />
             </div>
           </div>
