@@ -14,14 +14,9 @@ function Project1() {
         <div className="grid gap-0">
           <div className="overflow-hidden border-b-4 py-10 shadow-2xl">
             <SliderImageRightToLeft>
-              <img
-                src="../../image/project1/wild1.png"
-                className="className pointer-events-none w-3/5 rounded-3xl max-sm:w-4/5"
-                alt=""
-              />
-              <Image src="../../image/project1/wild1.png" alt="" />
-              <Image src="../../image/project1/wild2.png" alt="" />
-              <Image src="../../image/project1/wild3.png" alt="" />
+              <Image src="/static/../../image/project1/wild1.png" alt="" />
+              <Image src="/static/../../image/project1/wild2.png" alt="" />
+              <Image src="/static/../../image/project1/wild3.png" alt="" />
               <Image src="../../image/project1/wild4.png" alt="" />
             </SliderImageRightToLeft>
           </div>
