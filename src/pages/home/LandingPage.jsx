@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa6';
+import Marquee from 'react-fast-marquee';
 
 function LandingPage() {
   const text =
@@ -16,41 +17,50 @@ function LandingPage() {
   };
   return (
     <>
-      <div className={`flex h-screen items-center justify-center`}>
-        <div className="container flex items-center px-[15rem] max-sm:px-8">
-          <div className="flex flex-col">
+      <div className={` flex h-screen overflow-hidden`}>
+        <div className=" container flex  items-center max-sm:px-8">
+          <div className="  flex flex-col">
             <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 10 }}
-              className="text-3xl uppercase leading-loose tracking-[.5rem] text-[#000000] "
+              className="px-[15rem]  text-3xl uppercase  leading-loose tracking-[.5rem] text-[#000000] max-sm:px-0 "
             >
               Said Magdy
             </motion.h1>
-            <motion.h2
-              initial={{ x: [100, 0, 100] }}
-              animate={{
-                opacity: [1, 0.1, 1],
-                x: [0, 100, 0],
-              }}
-              transition={{
-                delay: 8,
-                duration: 5,
-                type: 'spring',
-                stiffness: 120,
-                repeat: Infinity,
-                repeatType: 'loop',
-              }}
-              className="text-6xl uppercase text-[#000000] max-sm:text-3xl"
-            >
-              frontend developer
-            </motion.h2>
-            <div className="flex flex-col">
+            <div className="w-[100vw] ">
+              <Marquee>
+                <motion.h2
+                  initial={{
+                    x: '15rem',
+                    scale: 2,
+                    opacity: 0.5,
+                    padding: '15px',
+                  }}
+                  animate={{
+                    opacity: [0.5, 0.1, 0.5],
+                    scale: 2,
+                  }}
+                  transition={{
+                    delay: 8,
+                    duration: 5,
+                    repeat: Infinity,
+                    repeatType: 'loop',
+                  }}
+                  className=" text-6xl uppercase text-[#000000] max-sm:text-lg"
+                >
+                  frontend developer
+                </motion.h2>
+              </Marquee>
+            </div>
+            <div className="flex flex-col px-[15rem] max-sm:px-0">
               <motion.p
                 variants={pvariant}
                 initial="hidden"
                 animate="vidsable"
-                className={'w-[68%] py-6 text-3xl max-sm:w-full max-sm:text-xl'}
+                className={
+                  'w-[68%] py-6 text-3xl max-sm:w-[70%] max-sm:text-xl'
+                }
               >
                 {text.split('').map((char, index) => (
                   <motion.span variants={spanVariant} key={index}>
@@ -60,7 +70,7 @@ function LandingPage() {
               </motion.p>
               <Link
                 to="/about"
-                className="flex w-[25%] items-center rounded-br-[1rem] bg-[#000000] px-5 py-3 text-2xl text-[#dedede]  duration-300 hover:bg-[#171717] max-sm:w-[11.5rem]"
+                className="flex w-[18%] items-center rounded-br-[1rem] bg-[#000000] px-5 py-3 text-2xl text-[#dedede]  duration-300 hover:bg-[#171717] max-sm:w-[11.5rem]"
               >
                 About me
                 <span className="pl-3">

@@ -20,6 +20,7 @@ import Paragraph from './../ui/Paragraph';
 import { Helmet } from 'react-helmet';
 //
 import said from '../../image/said.png';
+import Marquee from 'react-fast-marquee';
 function About() {
   return (
     <>
@@ -35,53 +36,80 @@ function About() {
         className=" "
       >
         <div className="">
-          <motion.div
-            initial={{ x: '-55%' }}
-            animate={{
-              x: '50%',
-            }}
-            transition={{
-              delay: 3,
-              duration: 10,
-              repeat: Infinity,
-              repeatType: 'reverse',
-            }}
-            className="grid grid-cols-11 gap-20 pt-[5rem] text-7xl max-sm:grid-cols-6 max-sm:pb-12"
-          >
-            <span className="text-[#FFD501]">
-              <IoLogoJavascript />
-            </span>
-            <span className="text-[#E8612C]">
-              <FaHtml5 />
-            </span>
-            <span className="text-[#118AC5]">
-              <FaCss3Alt />
-            </span>
-            <span className="text-[#036C7E]">
-              <FaReact />
-            </span>
-            <span className="text-[#513A76]">
-              <FaBootstrap />
-            </span>
-            <span className="text-[#17B5B4]">
-              <SiTailwindcss />
-            </span>
-            <span className="text-[#6D48B0]">
-              <SiRedux />
-            </span>
-            <span className="text-[#7E1F28]">
-              <SiReactquery />
-            </span>
-            <span className="text-[#F6C74D]">
-              <SiStyledcomponents />
-            </span>
-            <span className="text-[#E84E34]">
-              <FaSquareGit />
-            </span>
-            <span text>
-              <IoLogoGithub />
-            </span>
-          </motion.div>
+          <Marquee autoFill pauseOnHover>
+            <div className=" flex gap-12 px-6 pt-[2rem] text-7xl">
+              <span className="text-[#FFD501]">
+                <IoLogoJavascript />
+              </span>
+              <span className="text-[#E8612C]">
+                <FaHtml5 />
+              </span>
+              <span className="text-[#73bde2]">
+                <FaCss3Alt />
+              </span>
+              <span className="text-[#036C7E]">
+                <FaReact />
+              </span>
+              <span className="text-[#513A76]">
+                <FaBootstrap />
+              </span>
+              <span className="text-[#17B5B4]">
+                <SiTailwindcss />
+              </span>
+              <span className="text-[#6D48B0]">
+                <SiRedux />
+              </span>
+              <span className="text-[#7E1F28]">
+                <SiReactquery />
+              </span>
+              <span className="text-[#F6C74D]">
+                <SiStyledcomponents />
+              </span>
+              <span className="text-[#E84E34]">
+                <FaSquareGit />
+              </span>
+              <span text>
+                <IoLogoGithub />
+              </span>
+            </div>
+          </Marquee>
+          <Marquee autoFill pauseOnHover direction="right">
+            <div className="flex gap-4 px-2 pt-[2rem] text-2xl max-sm:pb-12 max-sm:text-xl">
+              <span className="rounded-md border-2 border-[#ffd501] bg-[#000] bg-opacity-5 p-3 text-[#FFD501]">
+                JavaScript
+              </span>
+              <span className="rounded-md border-2 border-[#e8612c] bg-[#000] bg-opacity-5 p-3 text-[#E8612C]">
+                HTML
+              </span>
+              <span className="rounded-md border-2 border-[#73bde2] bg-[#000] bg-opacity-5 p-3 text-[#73bde2]">
+                Css3
+              </span>
+              <span className="rounded-md border-2 border-[#036c7e] bg-[#000000] bg-opacity-5 p-3 text-[#036C7E]">
+                React.js
+              </span>
+              <span className="rounded-md border-2 border-[#513a76] bg-[#000] bg-opacity-5 p-3 text-[#513A76]">
+                Bootstrap
+              </span>
+              <span className=" rounded-md border-2 border-[#17b5b4] bg-[#000] bg-opacity-5 p-3 text-[#17B5B4]">
+                Tailwind Css
+              </span>
+              <span className="rounded-md border-2 border-[#6d48b0] bg-[#000] bg-opacity-5 p-3 text-[#6D48B0]">
+                Redux
+              </span>
+              <span className=" rounded-md border-2 border-[#7E1F28] bg-[#000]  bg-opacity-5 p-3 text-[#7E1F28]">
+                React Query
+              </span>
+              <span className=" rounded-md border-2 border-[#f2c706] bg-[#000] bg-opacity-5 p-3 text-[#f2c706]">
+                Styled Components
+              </span>
+              <span className="rounded-md border-2 border-[#e84e34] bg-[#000000] bg-opacity-5 p-3 text-[#E84E34]">
+                Git
+              </span>
+              <span className="rounded-md border-2 border-[#000] bg-[#000] bg-opacity-5 p-3 ">
+                Github
+              </span>
+            </div>
+          </Marquee>
         </div>
         <div className="grid grid-cols-2 gap-28 px-56 max-sm:grid-cols-1 max-sm:gap-0 max-sm:px-12">
           <div className=" flex flex-col items-center justify-center">
