@@ -18,7 +18,7 @@ function Projects3() {
         <NumProject>4</NumProject>
         <Heading>fun moment</Heading>
         <div className="grid gap-0 ">
-          <div className="overflow-hidden border-b-4 py-10 shadow-2xl">
+          <div className="overflow-hidden border-b-4 py-4 shadow-2xl max-sm:shadow-xl">
             <SliderImageLeftToRight>
               <Image src={image1} alt="fun" />
               <Image src={image2} alt="fun" />

@@ -3,7 +3,7 @@ function Image({ src, alt, className }) {
     <>
       <img
         src={src}
-        className={`pointer-events-none w-3/5 rounded-3xl duration-300 hover:scale-110 max-sm:w-4/5 ${className}`}
+        className={`pointer-events-none w-3/5 rounded-md duration-300 hover:scale-110 max-sm:w-4/5 ${className}`}
         alt={alt}
       />
     </>

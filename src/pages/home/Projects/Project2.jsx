@@ -15,7 +15,7 @@ function Project2() {
         <NumProject>2</NumProject>
         <Heading>worldwise</Heading>
         <div className="grid gap-0 ">
-          <div className="overflow-hidden border-b-4 py-10 shadow-2xl">
+          <div className="overflow-hidden border-b-4 py-4 shadow-2xl max-sm:shadow-xl">
             <SliderImageLeftToRight>
               <Image src={image1} alt="worldwise" />
               <Image src={image2} alt="worldwise" />

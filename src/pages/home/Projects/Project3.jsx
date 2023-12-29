@@ -17,7 +17,7 @@ function Project3() {
         <NumProject>3</NumProject>
         <Heading>Pizza menu</Heading>{' '}
         <div className="grid gap-0 ">
-          <div className="overflow-hidden border-b-4 py-10 shadow-2xl">
+          <div className="overflow-hidden border-b-4 py-4 shadow-2xl max-sm:shadow-xl">
             <SliderImageRightToLeft>
               <Image src={image1} alt="pizza" />
               <Image src={image2} alt="pizza" />
