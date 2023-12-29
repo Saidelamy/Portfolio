@@ -42,6 +42,7 @@ function Contact() {
           setIsLoading(true);
           toast.success('messege sent successfully!');
           reset();
+          console.log(result.message);
           setIsLoading(false);
         },
         (error) => {
@@ -78,7 +79,7 @@ function Contact() {
           >
             <div className="relative flex flex-col ">
               <input
-                {...register('user_email', {
+                {...register('from_email', {
                   required: 'Please fill out this field.',
                   pattern: {
                     value: /\S+@\S+\.\S+/,
@@ -86,7 +87,7 @@ function Contact() {
                   },
                 })}
                 type="email"
-                name="user_email"
+                name="from_email"
                 id="email"
                 className="focus:border-b-blac k peer h-12 w-full border-b-2 border-gray-300 bg-transparent py-6 text-black  placeholder-transparent  focus:border-b-black focus:outline-none"
                 placeholder="Email"
