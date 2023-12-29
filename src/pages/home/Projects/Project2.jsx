@@ -11,7 +11,7 @@ import image3 from '../../../../image/project2/world3.png';
 function Project2() {
   return (
     <>
-      <div className="h-screen text-[#000000] ">
+      <div className=" text-[#000000] ">
         <NumProject>2</NumProject>
         <Heading>worldwise</Heading>
         <div className="grid gap-0 ">

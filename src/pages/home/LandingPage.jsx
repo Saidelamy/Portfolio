@@ -8,7 +8,7 @@ function LandingPage() {
     'i’m working with react.js library and many related libraries with it and more...';
   const pvariant = {
     hidden: { opacity: 0 },
-    vidsable: { opacity: 1, transition: { staggerChildren: 0.1 } },
+    vidsable: { opacity: 1, transition: { staggerChildren: 0.09, delay: 1 } },
   };
 
   const spanVariant = {
@@ -36,6 +36,7 @@ function LandingPage() {
                     scale: 2,
                     opacity: 0.5,
                     padding: '15px',
+                    zIndex: 1000,
                   }}
                   animate={{
                     opacity: [0.5, 0.1, 0.5],
@@ -59,7 +60,7 @@ function LandingPage() {
                 initial="hidden"
                 animate="vidsable"
                 className={
-                  'w-[68%] py-6 text-3xl max-sm:w-[70%] max-sm:text-xl'
+                  'w-[60%] py-6 text-3xl max-sm:w-[70%] max-sm:text-xl'
                 }
               >
                 {text.split('').map((char, index) => (

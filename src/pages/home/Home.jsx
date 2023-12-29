@@ -23,11 +23,11 @@ function Home() {
       >
         {/* landing section */}
         <LandingPage />
-        <div className="grid grid-rows-1 px-[150px] max-sm:px-12">
+        <div className="grid grid-rows-1 px-[150px] pb-14 max-sm:px-12">
           <Project1 />
         </div>
       </motion.section>
-      <div className="grid grid-rows-3 px-[150px] max-sm:px-12">
+      <div className="grid grid-rows-3 gap-10 px-[150px] max-sm:px-12">
         <Project2 />
         <Project3 />
         <Project4 />

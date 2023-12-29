@@ -13,7 +13,7 @@ import image4 from '../../../../image/project3/pizza4.png';
 function Project3() {
   return (
     <>
-      <div className="h-screen text-[#000000] ">
+      <div className=" text-[#000000] ">
         <NumProject>3</NumProject>
         <Heading>Pizza menu</Heading>{' '}
         <div className="grid gap-0 ">

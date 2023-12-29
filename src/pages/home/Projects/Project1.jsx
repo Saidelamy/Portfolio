@@ -13,7 +13,7 @@ import image4 from '../../../../image/project1/wild4.png';
 function Project1() {
   return (
     <>
-      <div className="h-screen text-[#000000] ">
+      <div className="text-[#000000] ">
         <NumProject>1</NumProject>
         <Heading>The wild oasis</Heading>
         <div className="grid gap-0">

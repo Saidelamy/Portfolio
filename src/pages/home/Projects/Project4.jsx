@@ -14,7 +14,7 @@ import image5 from '../../../../image/project4/fun5.png';
 function Projects3() {
   return (
     <>
-      <div className="h-screen text-[#000000] ">
+      <div className="text-[#000000] ">
         <NumProject>4</NumProject>
         <Heading>fun moment</Heading>
         <div className="grid gap-0 ">

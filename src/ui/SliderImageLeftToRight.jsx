@@ -20,7 +20,7 @@ function SliderImageLeftToRight({ children }) {
           repeatType: 'mirror',
         }}
         dragConstraints={{ right: 0, left: -width }}
-        className="flex gap-10 "
+        className="flex gap-4 "
       >
         {children}
       </motion.div>

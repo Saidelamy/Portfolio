@@ -9,18 +9,16 @@ function App() {
   const location = useLocation();
   return (
     <>
-      <>
-        <AnimatePresence mode="wait">
-          <Routes key={location.pathname} location={location}>
-            <Route element={<AppLayout />}>
-              <Route index element={<Home />} />
-              <Route path="/" element={<Home />} />
-              <Route path="contact" element={<Contact />} />
-              <Route path="about" element={<About />} />
-            </Route>
-          </Routes>
-        </AnimatePresence>
-      </>
+      <AnimatePresence mode="wait">
+        <Routes key={location.pathname} location={location}>
+          <Route element={<AppLayout />}>
+            <Route index element={<Home />} />
+            <Route path="/" element={<Home />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="about" element={<About />} />
+          </Route>
+        </Routes>
+      </AnimatePresence>
     </>
   );
 }
